@@ -19,6 +19,20 @@ html, body {
     overflow-y: hidden;
 }
 
+.navbar-toggler {
+    background: #1A1C22;
+}
+
+.navbar-toggler-icon {
+    background: #1A1C22;
+}
+
+.collapse {
+    background: #1A1C22;
+    display: flex;
+    justify-content: right;
+}
+
 .container-2 {
     margin: 0 !important;
 }

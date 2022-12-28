@@ -10,6 +10,20 @@
     color: white;
 }
 
+.navbar-toggler {
+    background: #1A1C22;
+}
+
+.navbar-toggler-icon {
+    background: #1A1C22;
+}
+
+.collapse {
+    background: #1A1C22;
+    display: flex;
+    justify-content: right;
+}
+
 .navbar {
     height: 5rem;
     background: #1A1C22 !important;
@@ -103,6 +117,10 @@ a:link {
 }
 
 @media only screen and (max-width: 1600px) {
+    .collapse {
+        display: block;
+    }
+
     .bag-fill {
         display: none;
     }
