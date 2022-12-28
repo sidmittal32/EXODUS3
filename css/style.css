@@ -1,0 +1,20 @@
+* {
+    background: url(../assets/bg_homepage.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.col {
+    height: 100vh;
+}
+
+.row>* {
+    display: inline-grid;
+    align-items: center;
+}
+
+img {
+    width: 415px;
+}
