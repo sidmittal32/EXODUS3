@@ -1,0 +1,41 @@
+* {
+    background: url(../assets/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    margin: 0 !important;
+}
+
+.row {
+    width: 100vw;
+}
+
+.col-1 {
+    width: 33vw !important;
+    text-align: left !important;
+}
+
+.col-2 {
+    width: 33vw !important;
+    text-align: center !important;
+}
+
+.col-3 {
+    width: 33vw !important;
+    text-align: right !important;
+}
+
+.planet-earth {
+    width: 66px;
+}
+
+.star-view {
+    width: 357px;
+    height: 277px;
+    border-radius: 25px;
+}
