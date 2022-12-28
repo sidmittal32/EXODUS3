@@ -4,10 +4,26 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    color: white;
+}
+
+@font-face {
+    font-family: PressStart2P;
+    src: url(../assets/PressStart2P-Regular.ttf);
 }
 
 .col {
     height: 100vh;
+}   
+
+.left-col {
+    margin-left: -100px;
+    margin-right: 100px;
+}
+
+.right-col {
+    margin-right: -100px;
+    margin-left: 100px;
 }
 
 .row>* {
@@ -17,4 +33,23 @@
 
 img {
     width: 415px;
+    transition: opacity 1s;
+}
+
+.subheading {
+    font-size: 36px;
+    font-family: PressStart2P;
+    text-align: left;
+    padding-top: 10px;
+    transition: opacity 1s;
+}
+
+.right-arrow {
+    width: 40px;
+    padding-bottom: 10px;
+}
+
+span:hover {
+    opacity: 75%;
+    cursor: pointer;
 }
