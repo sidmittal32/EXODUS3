@@ -314,6 +314,22 @@ a {
         margin-bottom: 0;
     }
 
+    .cart-items{
+        width: 90%;
+        margin-left: 3%;
+    }
+
+    .cart-item{
+        font-size: .8rem;
+    }
+
+    .qty{
+        font-size: .8rem;
+    }
+
+    
+
+
 }
 
 @media only screen and (max-width: 550px){
