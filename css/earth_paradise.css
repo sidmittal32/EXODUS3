@@ -12,11 +12,6 @@
     color: white;
 }
 
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
 .container-2 {
     margin: 0 !important;
 }
@@ -87,7 +82,7 @@ html, body {
 }
 
 .starview-cuisine {
-    width: 1500px;
+    width: 1200px;
     padding-left: 50px;
 }
 
