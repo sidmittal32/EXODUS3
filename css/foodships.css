@@ -269,7 +269,53 @@ a {
     margin-bottom: 2%;
     margin-left: 40%;
     width: 20%;
+}
 
+.navbar {
+    height: 5rem;
+    background: #1A1C22 !important;
+}
+
+.container-1 {
+    background: #1A1C22;
+    height: 80px;
+}
+
+.navbar-brand {
+    background: #1A1C22;
+}
+
+.logo {
+    background: #1A1C22;
+    width: 4.063rem;
+}
+
+.bag-fill {
+    width: 1.625rem;
+    margin-inline: 1.25rem;
+}
+
+.cartbag {
+    display: none;
+}
+
+.nav-item {
+    background: #1A1C22;
+}
+
+.nav-link {
+    color: white !important;
+    background: #1A1C22;
+    transition: opacity 1s;
+}
+
+.nav-link:hover {
+    opacity: 75%;
+}
+
+.tofoodships {
+    margin-inline: 1.25rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 @media only screen and (max-width: 900px){
