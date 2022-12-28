@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Press+Start+2P&family=Rubik+Dirt&family=Rubik+Wet+Paint&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Press+Start+2P&family=Rubik+Dirt&family=Rubik+Wet+Paint&family=Ruda&display=swap');
 
 body {
     background: url(../assets/background.jpg) no-repeat center center fixed;
+}
+
+.ruda {
+    font-family: 'Ruda', sans-serif;
+    color: #ffffff;
 }
 
 .rubik-dirt {
@@ -81,5 +85,15 @@ body {
     text-align: center;
     font-size: 1.5rem;
     margin: 5%;
+}
+
+.desc{
+    text-align: center;
+    font-size: .7rem;
+}
+
+.distance{
+    text-align: center;
+    margin-top: 12%;
 }
 
