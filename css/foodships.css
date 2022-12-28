@@ -209,3 +209,65 @@ a {
 .order-button:hover{
     border: 1px solid #2A6D7C;
 }
+
+.icon-cart{
+    width: 5%;
+    margin-left: 3%;
+}
+
+.location-text-cart{
+    margin-top: 4.2%;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.watering-cart{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 1.5%;
+}
+
+.cart-items{
+    
+    background: #010101;
+    box-shadow: 0px 4px 4px rgba(60, 126, 118, 0.55);
+    border-radius: 25px;
+    width: 50%;
+    margin-left: 25%;
+    padding: 2%;
+
+}
+
+.cart-item{
+    margin-left: 10%;
+    font-size: 1.2rem;
+}
+
+.qty{
+    font-size: 1.2rem;
+}
+
+.fixcart{
+    width: 50%;
+}
+
+.item-qty{
+    width: 20%;
+    margin-left: 26%;
+}
+
+.item{
+    display: flex;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.place-order-button{
+    padding: 1%;
+    margin: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 40%;
+    width: 20%;
+
+}
