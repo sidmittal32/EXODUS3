@@ -340,6 +340,10 @@ a:link {
         display: none;
     }
 
+    .collapse {
+        display: block;
+    }
+
     .cartbag {
         display: block;
         background: #1A1C22;

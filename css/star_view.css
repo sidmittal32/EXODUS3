@@ -19,20 +19,6 @@ html, body {
     color: white;
 }
 
-.navbar-toggler {
-    background: #1A1C22;
-}
-
-.navbar-toggler-icon {
-    background: #1A1C22;
-}
-
-.collapse {
-    background: #1A1C22;
-    display: flex;
-    justify-content: right;
-}
-
 .container-2 {
     margin: 0 !important;
 }
@@ -107,6 +93,20 @@ html, body {
     padding-left: 9.375rem;
 }
 
+.navbar-toggler {
+    background: #1A1C22;
+}
+
+.navbar-toggler-icon {
+    background: #1A1C22;
+}
+
+.collapse {
+    background: #1A1C22;
+    display: flex;
+    justify-content: right;
+}
+
 .navbar {
     height: 5rem;
     background: #1A1C22 !important;
@@ -173,6 +173,10 @@ a:link {
         overflow-y: auto;
     }
 
+    .collapse {
+        display: block;
+    }
+
     .bag-fill {
         display: none;
     }
@@ -205,6 +209,7 @@ a:link {
         width: 100vw !important;
         text-align: right !important;
         transform: translateY(10%);
+        height: 0;
     }
 
     .star-view {

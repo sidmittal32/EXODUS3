@@ -176,6 +176,10 @@ a:link {
         overflow-y: auto;
     }
 
+    .collapse {
+        display: block;
+    }
+
     .bag-fill {
         display: none;
     }
@@ -208,6 +212,7 @@ a:link {
         width: 100vw !important;
         text-align: right !important;
         transform: translateY(10%);
+        height: 0;
     }
 
     .star-view {
