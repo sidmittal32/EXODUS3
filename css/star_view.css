@@ -150,6 +150,10 @@ html, body {
     border: #151a58 2px solid !important;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 1600px) {
     html, body {
         overflow-y: auto;
