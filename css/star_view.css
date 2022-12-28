@@ -3,6 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 * {
     background: url(../assets/background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -37,6 +43,7 @@
     width: 33vw !important;
     text-align: right !important;
     transform: translateY(10%);
+    height: 100vh;
 }
 
 .planet-earth {
@@ -132,6 +139,10 @@
 }
 
 @media only screen and (max-width: 1600px) {
+    html, body {
+        overflow-y: auto;
+    }
+
     .bag-fill {
         display: none;
     }

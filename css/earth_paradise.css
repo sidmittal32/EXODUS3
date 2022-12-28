@@ -12,6 +12,12 @@
     color: white;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 .container-2 {
     margin: 0 !important;
 }
@@ -37,6 +43,7 @@
     width: 33vw !important;
     text-align: right !important;
     transform: translateY(10%);
+    height: 100vh;
 }
 
 .planet-earth {
@@ -133,6 +140,12 @@
 }
 
 @media only screen and (max-width: 1600px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
     .bag-fill {
         display: none;
     }
