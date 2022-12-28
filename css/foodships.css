@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Press+Start+2P&family=Rubik+Dirt&family=Rubik+Wet+Paint&display=swap');
+
+
+body {
+    background: url(../assets/background.jpg) no-repeat center center fixed;
+}
+
+
+.address {
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+.chakra {
+    font-family: 'Chakra Petch', sans-serif;
+    color: #ffffff;
+}
+
+.location-label{
+    margin: 1%;
+    margin-top: 3%;
+    margin-left: 7%;
+    font-size: 1.2rem;
+}
+
+.location-text{
+    margin: auto;
+    margin-left: 1.2%;
+    margin-top: 3.2%;
+}
+
+.earth-icon{
+    margin-bottom: 0;
+    width: 3%;
+    margin-top: 2.3%;
+    height: 3%;
+}
+
+.top{
+    display: flex;
+    
+}
