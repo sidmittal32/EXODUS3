@@ -271,3 +271,53 @@ a {
     width: 20%;
 
 }
+
+@media only screen and (max-width: 900px){
+    .top{
+        display: none;
+
+    }
+
+    .flex-restro{
+        width: 100%;
+        background: url(../assets/astro_spices_food.jpg) no-repeat center center fixed;
+        display: block;
+        background-blend-mode: screen;
+        padding-bottom: 3%;
+    }
+
+    .food-image-div{
+        display: none;
+    }
+
+    .box-restro{
+        width: 100%;
+        margin: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .stats{
+        text-align: center;
+    }
+    
+    .misc{
+        text-align: center;
+    }
+
+    .menu{
+        margin-top: 5%;
+    }
+
+    .watering{
+        margin-top: 2%;
+        margin-bottom: 0;
+    }
+
+}
+
+@media only screen and (max-width: 550px){
+    .flex-container{
+        display: block;
+    }
+}
