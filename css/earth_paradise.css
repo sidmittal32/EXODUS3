@@ -29,7 +29,7 @@ html, body {
 .col-1 {
     width: 33vw !important;
     text-align: left !important;
-    transform: translateY(18%);
+    transform: translateY(9%);
     margin-left: 10px;
 }
 
@@ -137,6 +137,17 @@ html, body {
 .tofoodships {
     margin-inline: 1.25rem;
     font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    font-family: 'Press Start 2P', cursive !important;
+    width: 350px;
+    margin-bottom: 40px;
+    border: #1D2376 2px solid !important;
+}
+
+.btn:hover {
+    border: #151a58 2px solid !important;
 }
 
 @media only screen and (max-width: 1600px) {
