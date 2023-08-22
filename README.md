@@ -1,2 +1,2 @@
 # EXODUS3
-Hosted @ https://sidmittal32.github.io/EXODUS3/html/index.html
+Hosted @ https://sidmittal32.github.io/exodus-3-submission/
